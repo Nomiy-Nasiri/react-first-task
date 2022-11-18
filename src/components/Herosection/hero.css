@@ -1,0 +1,36 @@
+.hero{
+background: url(../assets/heroBg.png);
+height: 82vh;
+}
+.tit1{
+    width: 40vw;
+    height: 15vh;
+    position: relative;
+    top: 15vh;
+    margin-left: 10vh;
+
+}
+.tit1 h2{
+font-size: 30px;
+color: #1caaaa;
+text-transform: capitalize;
+font-weight: 800;
+
+}
+.tit1 p{
+    font-size:20px;
+    text-transform: capitalize;
+    color: whitesmoke;
+}
+#read-more{
+    text-align: center;
+    height: 6vh;
+    width: 10vw;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    align-items: center;
+    position: absolute;
+    top: 10vh
+    
+}

@@ -1,0 +1,70 @@
+.offer-heading {
+  text-align: center;
+  margin-top: 8vh;
+  text-transform: capitalize;
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #156663;
+  margin-top: 6vh;
+}
+
+.offer-details {
+  width: 30vw;
+  height: 45vh;
+  margin-top: 4vh;
+}
+
+.offer-details h3 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-top: 4vh;
+  width: 30vw;
+}
+.para1 {
+  text-transform: capitalize;
+  font-size: 15px;
+  margin-top: 3vh;
+  width: 30vw;
+  color: white;
+}
+.para2 {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3vh;
+  width: 30vw;
+  color: white;
+}
+
+.offer-btn {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+.offer-btn button {
+  text-align: center;
+  background: transparent;
+  border: 2px solid #1caaaa;
+  color: #1cdbdb;
+  align-items: center;
+  width: 30vw;
+  height: 5vh;
+}
+.event-pic {
+  width: 40vw;
+  height: 50vh;
+  margin-top: 3vh;
+}
+.event-pic img {
+  height: 40vh;
+  width: 25vw;
+  border-radius: 15px;
+  margin-top: 2vw;
+}
+#pic {
+  margin-left: 8vw;
+}

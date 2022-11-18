@@ -1,0 +1,180 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  display: flex;
+  height: 14vh;
+  margin-top: 2vh;
+  border-bottom-style: groove;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+.title h2 {
+  text-transform: capitalize;
+  color: #156663;
+  font-size: 22px;
+}
+.title p {
+  text-transform: capitalize;
+  margin-top: 2vh;
+  font-size: 18px;
+  color: gray;
+}
+.list {
+  width: 45vw;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 3vw;
+}
+
+.list li {
+  font-size: 18px;
+  list-style: none;
+  color: gray;
+  text-transform: capitalize;
+  margin-top: 3vh;
+}
+.btn button {
+  height: 8vh;
+  width: 12vw;
+  border-radius: 2vh;
+  background-color: #156663;
+  margin-top: 2vh;
+  margin-left: 2vh;
+  text-transform: capitalize;
+  color: white;
+  border: 1px solid whitesmoke;
+  box-shadow: 2px 2px 4px lightblue;
+}
+.btn button:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #156663;
+}
+
+.heading {
+  text-align: center;
+}
+.heading p {
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #156663;
+}
+.body {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  height: 55vh;
+  width: 20vw;
+  background-color: #156663;
+  margin-top: 8vh;
+  border-radius: 10px;
+}
+.card:hover {
+  box-shadow: 10px 10px 5px lightblue;
+  cursor: pointer;
+}
+.cardName {
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+.cardName h3 {
+  padding: 15px 0px;
+  text-transform: capitalize;
+}
+.card img {
+  height: 35vh;
+  width: 20vw;
+}
+.crdbtn {
+  height: 6vh;
+  width: 20vw;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+.crdbtn button {
+  text-align: center;
+  height: 6vh;
+  width: 10vw;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  align-items: center;
+}
+
+.crdbtn button:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 3px lightblue;
+}
+
+/* .body{
+    display: flex;
+    flex-direction: row;
+
+} */
+/* .card {
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: cadetblue;
+    margin-top: 4vh;
+    justify-content: center;    
+
+}
+.card img{
+    height: 35vh;
+    width: 20vw;
+    
+}
+.crdbtn button{
+     text-align: center;
+    height: 6vh;
+    width: 10vw;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+
+
+}
+.crdbtn button:hover{
+    cursor: pointer;
+}
+.crdbtn{
+    padding: 10px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardName{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+.heading {
+text-align:center ;
+}
+.heading p{
+font-size: 35px;
+font-weight: 600;
+text-transform: capitalize;
+color: aquamarine;
+} */

@@ -1,0 +1,16 @@
+.crdbtn {
+  height: 6vh;
+  width: 20vw;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+.crdbtn button {
+  text-align: center;
+  height: 6vh;
+  width: 10vw;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  align-items: center;
+}
